@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 7)
     (tracks 67)
     (zones 0)
     (modules 20)
@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "CAN Bus Hub 16")
+    (title "CAN Bus Hub 12")
     (date 2018-02-10)
     (rev 1)
   )
@@ -690,6 +690,21 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Can Bus Hub 12   Rev 1   Corwin Hansen" (at 104 70) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (dimension 149 (width 0.3) (layer Dwgs.User)
+    (gr_text "149.000 mm" (at 129.5 99.35) (layer Dwgs.User)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 204 83) (xy 204 100.7)))
+    (feature2 (pts (xy 55 83) (xy 55 100.7)))
+    (crossbar (pts (xy 55 98) (xy 204 98)))
+    (arrow1a (pts (xy 204 98) (xy 202.873496 98.586421)))
+    (arrow1b (pts (xy 204 98) (xy 202.873496 97.413579)))
+    (arrow2a (pts (xy 55 98) (xy 56.126504 98.586421)))
+    (arrow2b (pts (xy 55 98) (xy 56.126504 97.413579)))
+  )
   (gr_line (start 55 83) (end 204 83) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 55 68) (end 204 68) (layer Edge.Cuts) (width 0.15))
   (dimension 15 (width 0.3) (layer Dwgs.User)

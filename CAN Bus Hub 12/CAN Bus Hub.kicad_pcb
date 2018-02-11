@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 6)
+    (drawings 7)
     (tracks 67)
     (zones 0)
     (modules 20)
@@ -690,6 +690,9 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Can Bus Hub 12   Rev 1   Corwin Hansen" (at 105 70) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (dimension 149 (width 0.3) (layer Dwgs.User)
     (gr_text "149.000 mm" (at 129.5 99.35) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
