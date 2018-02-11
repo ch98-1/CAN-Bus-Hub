@@ -1,0 +1,13 @@
+List of components.
+
+<number needed per board>x <Component Name>: <digikey link for possible component>
+
+
+CAN Bus Hub 12:
+
+12x Molex Micro-Fit 3.0 43045-0228: https://www.digikey.com/product-detail/en/molex-llc/0430450228/WM10659-ND/3310183
+
+12x Molex Micro-Fit 3.0 43045-0208: https://www.digikey.com/product-detail/en/molex-llc/0430250208/WM16162-ND/4247397
+
+24x Molex Micro-Fit 3.0 43030-0002: https://www.digikey.com/product-detail/en/molex-llc/0430300002/WM1125CT-ND/467811
+
